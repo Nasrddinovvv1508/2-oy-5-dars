@@ -1,0 +1,54 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: lightgray;
+}
+
+.box1 {
+    width: 263px;
+    background-color:#262D33;
+    margin-right: auto;
+    margin-left: auto;
+    text-align: center;
+    border-radius: 10px;
+}
+
+.box1 .baskedball-player {
+    border-radius: 50%;
+    background-color: grey;
+    margin: 35px 46px 12px 48px;
+}
+
+.box1 h3 {
+    color: #939699;
+    text-align: center;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 15px;
+    letter-spacing: 0.5px;
+    text-transform: uppercase;
+    margin: 0px 25px 10px;
+}
+
+.box1 p {
+    margin: 0px 25px 25px;
+
+    color: var(--base-white, #FFF);
+    text-align: center;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 25px; /* 156.25% */
+    letter-spacing: 0.5px;
+    text-transform: uppercase;
+}
+
+.box1 .baskedball-logo {
+    margin: 0px 121px 18px 122px;
+}
+

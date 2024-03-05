@@ -1,0 +1,69 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: lightgrey;
+}
+
+.box {
+    border-radius: 10px;
+    padding-top: 20px;
+    background-color: #4267B2;
+    width: 263px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 12px;
+    text-align: center;
+}
+
+.box h3 {
+    margin: 0px 92px 19px;
+
+    color: var(--violet-violet-25, #BBC6FF);
+    text-align: right;
+    font-family: Graphik Web;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px; /* 142.857% */
+}
+
+.box .box1 {
+    margin-left: 18px;
+    margin-top: 25px;
+    /* margin: 25px 25px 18px 25px; */
+
+}
+
+.box .box1 .lincoln-photo {
+    border-radius: 50%;
+}
+
+.box .box1 span {
+    width: 128px;
+    margin: 35px 25px 28px 15px;
+    color: var(--base-white, #FFF);
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 25px; /* 125% */
+}
+
+.box p {
+    color: var(--base-white, #FFF);
+    text-align: center;
+    font-feature-settings: 'clig' off, 'liga' off;
+    font-family: Graphik Web;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 25px;
+    margin: 18px 25px 51px;
+}
+
+.box .icon {
+    margin: 8px 121px 7px;
+}
